@@ -1,0 +1,28 @@
+# Data file for hiertags:
+# Tag frequencies for the weighted network Example_co-occurrence_net.txt
+#
+# Recommended command line:
+# perl reconstr_A.pl -net Example_co-occurrence_net.txt -objn Example_tag_frequencies.txt
+# perl reconstr_B.pl -net Example_co-occurrence_net.txt -objn Example_tag_frequencies.txt -z 0
+#
+# File format:
+# first data line: number of objects
+# further lines in file:
+# two columns separated by tabs
+# rows starting with "#" are skipped as comments
+#
+# 1. column: tagid
+# 2. column: tag frequency (number of objects with the tag)
+#
+#tagid
+#       frequency
+#
+38
+1 26
+2 15
+3 16
+4 9
+5 9
+6 9
+7 9
+
